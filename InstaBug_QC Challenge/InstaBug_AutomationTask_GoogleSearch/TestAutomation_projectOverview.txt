@@ -1,0 +1,5 @@
+Writing Automated test script for "GoogleSearch" 
+using selenium webdriver by Java language 
+IntelliJ IDE,
+TesNG:using DDT(data driven testing) by DataProvider annotation ,
+Maven and POM Pattern Design

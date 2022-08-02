@@ -1,0 +1,26 @@
+TC >> User can access "Google" website and search in it by any Data >> (postive,high)
+
+pre_condition:
+1-User must be connected to internet.
+2-User is already opened Google Chrome browser. 
+
+Steps:
+1-Go to URL "https://www.google.com/" .
+2-click on "Search bar".
+3-write the required data that you want to search about it.
+4-click on "Google Search" button.
+
+
+Test Data:
+with data driven Test: we can test same testcase several times with different data        
+           3-   {"Google_TC1" , "Selenium Tutorial"},
+                {"Google_TC2" , "InstaBug"},
+                {"Google_TC3" , "عربي"},
+                {"Google_TC4" , "123"},
+                {"Google_TC5" , "?!"} 
+
+Expected Results: 
+1-user is navigated to "https://www.google.com/" successfully.
+2-cursor of mouse will be on the search bar.
+3.Enter "required data" successfully
+4.User is redirected to the search iteam page. 
